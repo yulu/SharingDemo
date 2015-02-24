@@ -14,6 +14,8 @@
 		BCC0BA691A9CBA3300EACDBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA681A9CBA3300EACDBD /* Images.xcassets */; };
 		BCC0BA6C1A9CBA3300EACDBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA6A1A9CBA3300EACDBD /* LaunchScreen.xib */; };
 		BCC0BA781A9CBA3300EACDBD /* SharingWhatsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA771A9CBA3300EACDBD /* SharingWhatsAppTests.m */; };
+		BCC0BA871A9CBBF800EACDBD /* WASWhatsAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA861A9CBBF800EACDBD /* WASWhatsAppUtil.m */; };
+		BCC0BA8C1A9CDF1D00EACDBD /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA8B1A9CDF1D00EACDBD /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		BCC0BA711A9CBA3300EACDBD /* SharingWhatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingWhatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC0BA761A9CBA3300EACDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC0BA771A9CBA3300EACDBD /* SharingWhatsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingWhatsAppTests.m; sourceTree = "<group>"; };
+		BCC0BA851A9CBBF800EACDBD /* WASWhatsAppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASWhatsAppUtil.h; sourceTree = "<group>"; };
+		BCC0BA861A9CBBF800EACDBD /* WASWhatsAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASWhatsAppUtil.m; sourceTree = "<group>"; };
+		BCC0BA8B1A9CDF1D00EACDBD /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		BCC0BA4F1A9CBA3300EACDBD = {
 			isa = PBXGroup;
 			children = (
+				BCC0BA881A9CC7B800EACDBD /* Files */,
 				BCC0BA5A1A9CBA3300EACDBD /* SharingWhatsApp */,
 				BCC0BA741A9CBA3300EACDBD /* SharingWhatsAppTests */,
 				BCC0BA591A9CBA3300EACDBD /* Products */,
@@ -81,6 +87,7 @@
 		BCC0BA5A1A9CBA3300EACDBD /* SharingWhatsApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCC0BA811A9CBB5D00EACDBD /* Class */,
 				BCC0BA5F1A9CBA3300EACDBD /* AppDelegate.h */,
 				BCC0BA601A9CBA3300EACDBD /* AppDelegate.m */,
 				BCC0BA621A9CBA3300EACDBD /* ViewController.h */,
@@ -117,6 +124,24 @@
 				BCC0BA761A9CBA3300EACDBD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC0BA811A9CBB5D00EACDBD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA851A9CBBF800EACDBD /* WASWhatsAppUtil.h */,
+				BCC0BA861A9CBBF800EACDBD /* WASWhatsAppUtil.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		BCC0BA881A9CC7B800EACDBD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA8B1A9CDF1D00EACDBD /* image.jpg */,
+			);
+			name = Files;
+			path = SharingWhatsApp/Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +227,7 @@
 				BCC0BA671A9CBA3300EACDBD /* Main.storyboard in Resources */,
 				BCC0BA6C1A9CBA3300EACDBD /* LaunchScreen.xib in Resources */,
 				BCC0BA691A9CBA3300EACDBD /* Images.xcassets in Resources */,
+				BCC0BA8C1A9CDF1D00EACDBD /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC0BA641A9CBA3300EACDBD /* ViewController.m in Sources */,
+				BCC0BA871A9CBBF800EACDBD /* WASWhatsAppUtil.m in Sources */,
 				BCC0BA611A9CBA3300EACDBD /* AppDelegate.m in Sources */,
 				BCC0BA5E1A9CBA3300EACDBD /* main.m in Sources */,
 			);
