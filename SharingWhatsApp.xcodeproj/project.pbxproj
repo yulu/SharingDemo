@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC0BA5E1A9CBA3300EACDBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA5D1A9CBA3300EACDBD /* main.m */; };
+		BCC0BA611A9CBA3300EACDBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA601A9CBA3300EACDBD /* AppDelegate.m */; };
+		BCC0BA641A9CBA3300EACDBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA631A9CBA3300EACDBD /* ViewController.m */; };
+		BCC0BA671A9CBA3300EACDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA651A9CBA3300EACDBD /* Main.storyboard */; };
+		BCC0BA691A9CBA3300EACDBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA681A9CBA3300EACDBD /* Images.xcassets */; };
+		BCC0BA6C1A9CBA3300EACDBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0BA6A1A9CBA3300EACDBD /* LaunchScreen.xib */; };
+		BCC0BA781A9CBA3300EACDBD /* SharingWhatsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0BA771A9CBA3300EACDBD /* SharingWhatsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC0BA721A9CBA3300EACDBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC0BA501A9CBA3300EACDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC0BA571A9CBA3300EACDBD;
+			remoteInfo = SharingWhatsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC0BA581A9CBA3300EACDBD /* SharingWhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingWhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0BA5C1A9CBA3300EACDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC0BA5D1A9CBA3300EACDBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC0BA5F1A9CBA3300EACDBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC0BA601A9CBA3300EACDBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC0BA621A9CBA3300EACDBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCC0BA631A9CBA3300EACDBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCC0BA661A9CBA3300EACDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC0BA681A9CBA3300EACDBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCC0BA6B1A9CBA3300EACDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCC0BA711A9CBA3300EACDBD /* SharingWhatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingWhatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0BA761A9CBA3300EACDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC0BA771A9CBA3300EACDBD /* SharingWhatsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingWhatsAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC0BA551A9CBA3300EACDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0BA6E1A9CBA3300EACDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC0BA4F1A9CBA3300EACDBD = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA5A1A9CBA3300EACDBD /* SharingWhatsApp */,
+				BCC0BA741A9CBA3300EACDBD /* SharingWhatsAppTests */,
+				BCC0BA591A9CBA3300EACDBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC0BA591A9CBA3300EACDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA581A9CBA3300EACDBD /* SharingWhatsApp.app */,
+				BCC0BA711A9CBA3300EACDBD /* SharingWhatsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC0BA5A1A9CBA3300EACDBD /* SharingWhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA5F1A9CBA3300EACDBD /* AppDelegate.h */,
+				BCC0BA601A9CBA3300EACDBD /* AppDelegate.m */,
+				BCC0BA621A9CBA3300EACDBD /* ViewController.h */,
+				BCC0BA631A9CBA3300EACDBD /* ViewController.m */,
+				BCC0BA651A9CBA3300EACDBD /* Main.storyboard */,
+				BCC0BA681A9CBA3300EACDBD /* Images.xcassets */,
+				BCC0BA6A1A9CBA3300EACDBD /* LaunchScreen.xib */,
+				BCC0BA5B1A9CBA3300EACDBD /* Supporting Files */,
+			);
+			path = SharingWhatsApp;
+			sourceTree = "<group>";
+		};
+		BCC0BA5B1A9CBA3300EACDBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA5C1A9CBA3300EACDBD /* Info.plist */,
+				BCC0BA5D1A9CBA3300EACDBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC0BA741A9CBA3300EACDBD /* SharingWhatsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA771A9CBA3300EACDBD /* SharingWhatsAppTests.m */,
+				BCC0BA751A9CBA3300EACDBD /* Supporting Files */,
+			);
+			path = SharingWhatsAppTests;
+			sourceTree = "<group>";
+		};
+		BCC0BA751A9CBA3300EACDBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0BA761A9CBA3300EACDBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC0BA571A9CBA3300EACDBD /* SharingWhatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0BA7B1A9CBA3300EACDBD /* Build configuration list for PBXNativeTarget "SharingWhatsApp" */;
+			buildPhases = (
+				BCC0BA541A9CBA3300EACDBD /* Sources */,
+				BCC0BA551A9CBA3300EACDBD /* Frameworks */,
+				BCC0BA561A9CBA3300EACDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharingWhatsApp;
+			productName = SharingWhatsApp;
+			productReference = BCC0BA581A9CBA3300EACDBD /* SharingWhatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC0BA701A9CBA3300EACDBD /* SharingWhatsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0BA7E1A9CBA3300EACDBD /* Build configuration list for PBXNativeTarget "SharingWhatsAppTests" */;
+			buildPhases = (
+				BCC0BA6D1A9CBA3300EACDBD /* Sources */,
+				BCC0BA6E1A9CBA3300EACDBD /* Frameworks */,
+				BCC0BA6F1A9CBA3300EACDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC0BA731A9CBA3300EACDBD /* PBXTargetDependency */,
+			);
+			name = SharingWhatsAppTests;
+			productName = SharingWhatsAppTests;
+			productReference = BCC0BA711A9CBA3300EACDBD /* SharingWhatsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC0BA501A9CBA3300EACDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "YU LU";
+				TargetAttributes = {
+					BCC0BA571A9CBA3300EACDBD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BCC0BA701A9CBA3300EACDBD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BCC0BA571A9CBA3300EACDBD;
+					};
+				};
+			};
+			buildConfigurationList = BCC0BA531A9CBA3300EACDBD /* Build configuration list for PBXProject "SharingWhatsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC0BA4F1A9CBA3300EACDBD;
+			productRefGroup = BCC0BA591A9CBA3300EACDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC0BA571A9CBA3300EACDBD /* SharingWhatsApp */,
+				BCC0BA701A9CBA3300EACDBD /* SharingWhatsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC0BA561A9CBA3300EACDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0BA671A9CBA3300EACDBD /* Main.storyboard in Resources */,
+				BCC0BA6C1A9CBA3300EACDBD /* LaunchScreen.xib in Resources */,
+				BCC0BA691A9CBA3300EACDBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0BA6F1A9CBA3300EACDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC0BA541A9CBA3300EACDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0BA641A9CBA3300EACDBD /* ViewController.m in Sources */,
+				BCC0BA611A9CBA3300EACDBD /* AppDelegate.m in Sources */,
+				BCC0BA5E1A9CBA3300EACDBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0BA6D1A9CBA3300EACDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0BA781A9CBA3300EACDBD /* SharingWhatsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC0BA731A9CBA3300EACDBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC0BA571A9CBA3300EACDBD /* SharingWhatsApp */;
+			targetProxy = BCC0BA721A9CBA3300EACDBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC0BA651A9CBA3300EACDBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0BA661A9CBA3300EACDBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC0BA6A1A9CBA3300EACDBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0BA6B1A9CBA3300EACDBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC0BA791A9CBA3300EACDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC0BA7A1A9CBA3300EACDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC0BA7C1A9CBA3300EACDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharingWhatsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC0BA7D1A9CBA3300EACDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharingWhatsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCC0BA7F1A9CBA3300EACDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingWhatsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingWhatsApp.app/SharingWhatsApp";
+			};
+			name = Debug;
+		};
+		BCC0BA801A9CBA3300EACDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingWhatsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingWhatsApp.app/SharingWhatsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC0BA531A9CBA3300EACDBD /* Build configuration list for PBXProject "SharingWhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0BA791A9CBA3300EACDBD /* Debug */,
+				BCC0BA7A1A9CBA3300EACDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC0BA7B1A9CBA3300EACDBD /* Build configuration list for PBXNativeTarget "SharingWhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0BA7C1A9CBA3300EACDBD /* Debug */,
+				BCC0BA7D1A9CBA3300EACDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCC0BA7E1A9CBA3300EACDBD /* Build configuration list for PBXNativeTarget "SharingWhatsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0BA7F1A9CBA3300EACDBD /* Debug */,
+				BCC0BA801A9CBA3300EACDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC0BA501A9CBA3300EACDBD /* Project object */;
+}
